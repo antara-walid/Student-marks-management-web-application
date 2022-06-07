@@ -14,6 +14,12 @@
 
 
 			<jsp:include page="../fragments/usermenu.jsp" />
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link active"
+										aria-current="page"
+										href="${pageContext.request.contextPath}/cadreadmin/importExcel">import students(excel)</a></li>
+
+			</ul>
 
 		</div>
 	</nav>
