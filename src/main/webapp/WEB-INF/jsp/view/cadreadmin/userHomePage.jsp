@@ -24,6 +24,10 @@
 		</div>
 	</nav>
 
+	<div>
+		<p> msg :${readingExcelMsg}</p>
+	</div>
+
 
 
 
