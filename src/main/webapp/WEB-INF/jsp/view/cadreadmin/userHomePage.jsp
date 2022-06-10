@@ -26,6 +26,8 @@
 
 	<div>
 		<p> msg :${readingExcelMsg}</p>
+		<br>
+		<p>inscription msg : ${InscriptionMsg}</p>
 	</div>
 
 
