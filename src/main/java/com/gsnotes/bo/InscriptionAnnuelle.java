@@ -36,7 +36,7 @@ public class InscriptionAnnuelle {
 
 	private int rang;
 
-	private String validation;
+	private String validation; // v nv
 
 	private String mention;
 

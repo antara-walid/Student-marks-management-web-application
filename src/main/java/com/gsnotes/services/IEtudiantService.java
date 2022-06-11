@@ -14,5 +14,14 @@ public interface IEtudiantService {
     public Etudiant getEtudiantByCne(String cin);
 
     public String inscrireEtudiants(List<ArrayList<Object>> students);
+    public String inscrireEtudiant(Etudiant etudiant,Long  idNiveau);
+    public String reinscrireEtudiant(Etudiant etudiant,Long  idNiveau);
+
+    public boolean doesNotContradictPastYear(Etudiant etudiant,Long  idNiveau);
+    public boolean sameDataForStudent(Etudiant etudiant);
+    public List<ArrayList<Etudiant>>  getListsReainscrire();
+    public void updateEtudiant(Etudiant etudiant);
+
+    public List<Etudiant> getAllEtudiants();
 
 }

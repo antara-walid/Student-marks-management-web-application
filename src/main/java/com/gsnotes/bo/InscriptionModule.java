@@ -18,7 +18,7 @@ public class InscriptionModule {
 	private double noteSN;
 	private double noteSR;
 	private double noteFinale;
-	private String validation;
+	private String validation; // v nv
 	private String plusInfos;
 
 	@ManyToOne

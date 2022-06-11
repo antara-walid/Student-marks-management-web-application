@@ -19,13 +19,18 @@
 										aria-current="page"
 										href="${pageContext.request.contextPath}/cadreadmin/importExcel">import students(excel)</a></li>
 
+				<li class="nav-item"><a class="nav-link active"
+										aria-current="page"
+										href="${pageContext.request.contextPath}/cadreadmin/showListeEtudiant">show liste etudiants</a></li>
+
 			</ul>
 
 		</div>
+
 	</nav>
 
 	<div>
-		<p> msg :${readingExcelMsg}</p>
+		<p> Excel Reading msg :${readingExcelMsg}</p>
 		<br>
 		<p>inscription msg : ${InscriptionMsg}</p>
 	</div>

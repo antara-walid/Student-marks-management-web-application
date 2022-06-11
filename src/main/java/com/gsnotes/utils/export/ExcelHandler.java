@@ -85,7 +85,7 @@ public class ExcelHandler {
 	 * @return the data of the excel file as a list of list  (each line is a list of objects)
 	 * @throws ExcelHandlerException
 	 */
-	public static List<ArrayList<Object>> readFromExcel(String pFileName, int pSheet) throws ExcelHandlerException {
+	public static List<ArrayList<Object>> readFromExcel(String pFileName, int pSheet )throws ExcelHandlerException {
 
 		List<ArrayList<Object>> data = new ArrayList<ArrayList<Object>>();
 
